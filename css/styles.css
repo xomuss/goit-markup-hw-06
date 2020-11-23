@@ -798,12 +798,11 @@ color: var(--secondary-text-colr);
   margin-left: 490px;
   margin-top: 8px;
   border-width: 0;
-  width: 30px;
-  height: 30px;
   cursor: pointer;
   background-color: #fff;
   border-radius: 50%;
-  border: 1px solid var(--secondary-text-colr);
+  height: 32.5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .close-button:hover svg {
@@ -827,6 +826,15 @@ color: var(--secondary-text-colr);
   height: 120px;
 }
 
+.label-box textarea:focus {
+  outline: none;
+  border-color: var(--activ-text-color);
+}
+
+.checkbox-link {
+  color: var(--activ-text-color);
+}
+
 .label-box input {
   width: 100%;
   border-radius: 4px;
@@ -835,7 +843,12 @@ color: var(--secondary-text-colr);
   padding-left: 42px;
 }
 
-input:focus svg  {
+.label-box input:focus {
+  outline: none;
+  border-color: var(--activ-text-color);
+}
+
+.label-box input:focus + svg {
   fill: #2196F3;
 }
 
