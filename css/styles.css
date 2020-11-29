@@ -538,6 +538,7 @@ margin-bottom: 0;
   color: #fff;
   margin-bottom: 20px;
   margin-top: 0;
+  display: block;
 }
 
 .footer .sn-icon .item {
