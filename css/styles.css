@@ -620,9 +620,8 @@ color: rgba(255, 255, 255, 0.6);
   content: "";
   width: 24px;
   height: 24px;
-  background-image: url(/images/icons/icon-send.svg);
+  background-image: url(../images/icons/icon-send.svg);
   margin-left: 10px;
-  
 }
 
 /* button */
